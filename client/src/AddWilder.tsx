@@ -35,7 +35,7 @@ function AddWilder() {
       }}
     >
       {data && <p>wilder { data.addWilder.name } a été ajouté.e</p>}
-      <Label htmlFor="name-input">Name :</Label>
+      <Label htmlFor="name-input">name :</Label>
       <Input
         id="name-input"
         type="text"
