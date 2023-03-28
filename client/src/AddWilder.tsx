@@ -43,7 +43,7 @@ function AddWilder() {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <Label htmlFor="city-input">City :</Label>
+      <Label htmlFor="city-input">city :</Label>
       <Input
         id="city-input"
         type="text"
